@@ -15,11 +15,13 @@ Data domain can be textual, visual or a combination of both (multimodal). The to
 ### Introduction
 
 This is me and my girlfriend Lea (This isn't the problem - Isn't she gorgeous? 😍)
-![Hot hot hot](resources/cuteness_overflow.jpeg)
+
+<img src="resources/cuteness_overflow.jpeg"  width="60%" height="60%">
 
 I'd love to delve into a heartwarming story about us, but unfortunately this isn't the goal from this project. But don't hesitate contacting me by mail if you want to know more about us [eglisi1](mailto:<eglisi1@students.zhaw.ch>).
 
 ### The real problem
+
 So, here's the scoop. Lea and I have an exciting summer vacation planned in Italy. Ah, Italy! The land of pasta, gelato, and impossibly narrow alleyways. But here's the hitch - we're both about as decisive as a squirrel in the middle of the road. With so many choices, deciding what to do in Italy is proving as challenging as eating spaghetti with a spoon.
 
 That's where you come in, dear machine learning project. We'll be wrangling with the '515K Hotel Reviews Data in Europe' dataset to spare us the agony of choosing the perfect hotel. Because, let's be honest, after figuring out whether to visit the Colosseum or the Leaning Tower of Pisa first, who has the energy left to choose a hotel?
