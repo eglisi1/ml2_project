@@ -16,7 +16,7 @@ Data domain can be textual, visual or a combination of both (multimodal). The to
 
 This is me and my girlfriend Lea (This isn't the problem - Isn't she gorgeous? 😍)
 
-<img src="resources/cuteness_overflow.jpeg"  width="60%" height="60%">
+<img src="resources/cuteness_overflow.jpeg"  width="40%" height="40%">
 
 I'd love to delve into a heartwarming story about us, but unfortunately this isn't the goal from this project. But don't hesitate contacting me by mail if you want to know more about us [eglisi1](mailto:<eglisi1@students.zhaw.ch>).
 
