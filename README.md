@@ -10,7 +10,7 @@ Every student is asked to develop an original machine learning project, using th
 
 Data domain can be textual, visual or a combination of both (multimodal). The topic and goal of the project can be freely chosen (hint: start from a problem, not from the solution!) and can leverage any NLP or Computer Vision supervised learning- or generative- methods or a combination of these.
 
-# Technical setup
+## Technical setup
 
 To run the project, you need to install the requirements in the `requirements.txt` file.
 If needed craete a virtual environment first.
