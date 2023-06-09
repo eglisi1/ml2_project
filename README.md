@@ -14,7 +14,7 @@ Data domain can be textual, visual or a combination of both (multimodal). The to
 
 ### Introduction
 
-This is me and my girlfriend Lea (This isn't the problem - Isn't she gorgeous? 😍)
+This is me and my girlfriend Lea (That's not the problem - But isn't she gorgeous? 😍)
 
 <img src="resources/cuteness_overflow.jpeg"  width="40%" height="40%">
 
@@ -28,7 +28,7 @@ That's where you come in, dear machine learning project. We'll be wrangling with
 
 ## Solving the problem
 
-### Creating the model
+### 01 - Creating the model
 
 To tackle my problem i wasn't to make a sentiment analysis about the reviews of the hotels. The goal is to find out if the reviews are positive or negative. This will help us to find the perfect hotel for our vacation.
 I wanted to make my own model. After I was able to fit a basic model in `01_create_sentiment_model/01_create_sentiment_model.ipynb` I had to fine tune my model.
@@ -40,4 +40,4 @@ With this approach I can make some experiments with different models and configs
 So the creation of the model was quite easy, because I can automatically create a ton of models.
 Unfortunately I still have to choose the best one by myself
 
-### Interpretation and validation of results + model performance measure
+### 02 - Interpretation and validation of results + model performance measure
