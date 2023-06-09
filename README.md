@@ -25,3 +25,19 @@ I'd love to delve into a heartwarming story about us, but unfortunately this isn
 So, here's the scoop. Lea and I have an exciting summer vacation planned in Italy. Ah, Italy! The land of pasta, gelato, and impossibly narrow alleyways. But here's the hitch - we're both about as decisive as a squirrel in the middle of the road. With so many choices, deciding what to do in Italy is proving as challenging as eating spaghetti with a spoon.
 
 That's where you come in, dear machine learning project. We'll be wrangling with the `515K Hotel Reviews Data in Europe` dataset to spare us the agony of choosing the perfect hotel. Because, let's be honest, after figuring out whether to visit the Colosseum or the Leaning Tower of Pisa first, who has the energy left to choose a hotel?
+
+## Solving the problem
+
+### Creating the model
+
+To tackle my problem i wasn't to make a sentiment analysis about the reviews of the hotels. The goal is to find out if the reviews are positive or negative. This will help us to find the perfect hotel for our vacation.
+I wanted to make my own model. After I was able to fit a basic model in `01_create_sentiment_model/01_create_sentiment_model.ipynb` I had to fine tune my model.
+This isn't my strentgh and I'm kind of lazy. Fortunately I'm able to automate easy python tasks.
+So I wrote a python script which will create a model for each config file in the `configs/model` directory.
+The script is in the `01_create_sentiment_model` directory and is called `01_create_sentiment_model.py`.
+The created model will be saved in the `models` directory.
+With this approach I can make some experiments with different models and configs. And pick the best one after the training.
+So the creation of the model was quite easy, because I can automatically create a ton of models.
+Unfortunately I still have to choose the best one by myself
+
+### Interpretation and validation of results + model performance measure
