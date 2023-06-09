@@ -1,0 +1,18 @@
+model:
+  model_path: model/sentiment_model.h5
+  training:
+    test_size: 0.2
+    random_state: 17
+    activation_function: relu
+    batch_size: 32
+    epochs: 30
+  compile:
+    optimizer: adam
+    loss_function: binary_crossentropy
+    metrics: [accuracy]
+num_words: 10000
+
+
+kaggle:
+  api_filepath: /Users/simi/Downloads/kaggle.json
+  download_path: data
