@@ -1,0 +1,10 @@
+num_words: 10000
+model_path: model
+
+kaggle:
+  api_filepath: /Users/simi/Downloads/kaggle.json
+  download_path: data
+
+logging:
+  # DEBUG | INFO | WARN | ERROR | CRITICAL
+  level: INFO

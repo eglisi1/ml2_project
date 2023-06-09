@@ -1,0 +1,12 @@
+model:
+  name: basic_model_many_epochs.keras
+  training:
+    test_size: 0.2
+    random_state: 17
+    activation_function: relu
+    batch_size: 32
+    epochs: 40
+  compile:
+    optimizer: adam
+    loss_function: binary_crossentropy
+    metrics: [accuracy]
