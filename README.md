@@ -10,6 +10,27 @@ Every student is asked to develop an original machine learning project, using th
 
 Data domain can be textual, visual or a combination of both (multimodal). The topic and goal of the project can be freely chosen (hint: start from a problem, not from the solution!) and can leverage any NLP or Computer Vision supervised learning- or generative- methods or a combination of these.
 
+# Technical setup
+
+To run the project, you need to install the requirements in the `requirements.txt` file.
+If needed craete a virtual environment first.
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment.
+
+```bash
+source venv/bin/activate
+```
+
+You can do this by running the following command in the root directory of the project:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Problem
 
 ### Introduction
@@ -30,14 +51,11 @@ That's where you come in, dear machine learning project. We'll be wrangling with
 
 ### 01 - Creating the model
 
-To tackle my problem i wasn't to make a sentiment analysis about the reviews of the hotels. The goal is to find out if the reviews are positive or negative. This will help us to find the perfect hotel for our vacation.
-I wanted to make my own model. After I was able to fit a basic model in `01_create_sentiment_model/01_create_sentiment_model.ipynb` I had to fine tune my model.
-This isn't my strentgh and I'm kind of lazy. Fortunately I'm able to automate easy python tasks.
-So I wrote a python script which will create a model for each config file in the `configs/model` directory.
-The script is in the `01_create_sentiment_model` directory and is called `01_create_sentiment_model.py`.
-The created model will be saved in the `models` directory.
-With this approach I can make some experiments with different models and configs. And pick the best one after the training.
-So the creation of the model was quite easy, because I can automatically create a ton of models.
-Unfortunately I still have to choose the best one by myself
+The text has some grammatical errors and could use some improvement. Here's a corrected version:
+To tackle my problem, I wanted to conduct sentiment analysis on hotel reviews. The goal is to discern whether the reviews are positive or negative, which will aid us in finding the perfect hotel for our vacation.
+I decided to create my own model. Once I managed to fit a basic model in 01_create_sentiment_model/01_create_sentiment_model.ipynb, I had to fine-tune it. This isn't my strength, and I admit to being somewhat lazy. Fortunately, I can automate routine Python tasks.
+Consequently, I wrote a Python script that creates a model for each config file in the configs/model directory. The script is located in the 01_create_sentiment_model directory and is called 01_create_sentiment_model.py. The generated models are stored in the models directory.
+With this approach, I can experiment with different models and configurations and choose the best one after training. The creation of the models was relatively easy since I can automatically generate a multitude of them. Unfortunately, I still have to manually select the best one.
 
 ### 02 - Interpretation and validation of results + model performance measure
+
