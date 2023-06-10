@@ -1,5 +1,5 @@
 model:
-  name: basic_model_many_epochs.keras
+  name: basic_model_many_epochs
   training:
     test_size: 0.2
     random_state: 17

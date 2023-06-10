@@ -111,6 +111,9 @@ def persist_model(model: models.Sequential) -> None:
 if __name__ == "__main__":
     model_config_dir = os.path.join(config_dir, "model")
     for model_config_file in os.listdir(model_config_dir):
+        if "zzz" in model_config_file:
+            logger.warn(f"\n====> Skipping config file '{model_config_file}' <====\n")
+            continue
         model_config_file = os.path.join(model_config_dir, model_config_file)
         logger.debug(f"Loading model config file: {model_config_file}")
         with open(model_config_file, "r") as f:

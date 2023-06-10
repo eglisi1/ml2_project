@@ -1,5 +1,5 @@
 model:
-  name: basic_model.keras
+  name: basic_model
   training:
     test_size: 0.2
     random_state: 17

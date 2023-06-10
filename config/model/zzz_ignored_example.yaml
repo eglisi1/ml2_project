@@ -1,0 +1,12 @@
+model:
+  name: basic_model_zzz
+  training:
+    test_size: 0.2
+    random_state: 17
+    activation_function: relu
+    batch_size: 100
+    epochs: 100
+  compile:
+    optimizer: adam
+    loss_function: binary_crossentropy
+    metrics: [accuracy]
