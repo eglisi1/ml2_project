@@ -10,3 +10,5 @@ In order to run the script, you need to call it from the root directory of the p
 ```bash
 python 01_create_sentiment_model/01_create_sentiment_model.py
 ```
+
+To ignore a config file, add a `zzz` in front of the file name.
