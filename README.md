@@ -51,7 +51,6 @@ That's where you come in, dear machine learning project. We'll be wrangling with
 
 ### 01 - Creating the model
 
-The text has some grammatical errors and could use some improvement. Here's a corrected version:
 To tackle my problem, I wanted to conduct sentiment analysis on hotel reviews. The goal is to discern whether the reviews are positive or negative, which will aid us in finding the perfect hotel for our vacation.
 I decided to create my own model. Once I managed to fit a basic model in 01_create_sentiment_model/01_create_sentiment_model.ipynb, I had to fine-tune it. This isn't my strength, and I admit to being somewhat lazy. Fortunately, I can automate routine Python tasks.
 Consequently, I wrote a Python script that creates a model for each config file in the configs/model directory. The script is located in the 01_create_sentiment_model directory and is called 01_create_sentiment_model.py. The generated models are stored in the models directory.
