@@ -70,3 +70,25 @@ Vader could achieve an accuracy of 0.7. This is better than flipping a coin but 
 
 All models have in common that it's easier to predict positive reviews than negative reviews.
 Even the vader model only managed to predict around 30% of the negative reviews correctly.
+
+### Interpretation of results
+
+The interpretation of the results have some issues with my approach.
+The models I created deliever a binary result. Either the review is positive or negative.
+But the vader model delievers a score between -1 and 1.
+Since I treated the vader model as a binary classifier, I had to define a threshold. Which I defined at 0.
+This means that every review with a score above 0 is positive and every review with a score below 0 is negative.
+
+The model `basic_model` does not have the best accuracy but it has a better mix than just predicting everything as positive like the `sigmoid_many_epochs` model.
+
+### Reflection
+
+The project was a lot of fun. I learned a lot about sentiment analysis and how to create a model.
+I think that my approach with a basic model and use different hyperparameters to fit is a good approach to gel a lot of models but it's not the best approach to get the best model.
+I think that I should have used a pre-trained model and fine-tune it. This would have given me a better result.
+
+### Validation
+
+I validated my results by comparing them to the vader model. I also used the accuracy as a performance measure.
+It showed that my models are not better than flipping a coin. But the vader model is better than flipping a coin.
+So my models are not really useful for Lea and me to find the perfect hotel.
