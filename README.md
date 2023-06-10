@@ -58,3 +58,15 @@ With this approach, I can experiment with different models and configurations an
 
 ### 02 - Interpretation and validation of results + model performance measure
 
+After I ran the notebook `02_interpretation_and_validation_of_results.ipynb` I realized that vader outperforms my models.
+I didn't safe all the configs because the python script would take a while to complete. But I saved the best models and the config file in the `models` respectively in the `config` directory.
+
+The result of the models are compared to the vader model in the notebook `02_interpretation_and_validation_of_results.ipynb`.
+Because the dataset is well balanced between positive and negative reviews, I decided to use the accuracy as a performance measure.
+In a classification problem I want a better chance than throwing a coin because otherwise I could just flip a coin to decide which hotel to book.
+
+Unfortunately with my basic model I only achieved an accuracy of 0.5. This is not better than flipping a coin.
+Vader could achieve an accuracy of 0.7. This is better than flipping a coin but still not good enough.
+
+All models have in common that it's easier to predict positive reviews than negative reviews.
+Even the vader model only managed to predict around 30% of the negative reviews correctly.

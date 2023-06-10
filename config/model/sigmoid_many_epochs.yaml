@@ -1,0 +1,12 @@
+model:
+  name: sigmoid_many_epochs
+  training:
+    test_size: 0.2
+    random_state: 17
+    activation_function: sigmoid
+    batch_size: 64
+    epochs: 100
+  compile:
+    optimizer: sgd
+    loss_function: binary_crossentropy
+    metrics: [accuracy]

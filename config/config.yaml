@@ -7,4 +7,4 @@ kaggle:
 
 logging:
   # DEBUG | INFO | WARN | ERROR | CRITICAL
-  level: INFO
+  level: DEBUG

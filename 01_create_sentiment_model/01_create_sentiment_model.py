@@ -29,6 +29,7 @@ logger = logging.getLogger(__name__)
 
 
 def create_model() -> None:
+    """Create a sentiment analysis model based on the IMDB dataset."""
     test_size = model_config["model"]["training"]["test_size"]
     random_state = model_config["model"]["training"]["random_state"]
 
@@ -44,6 +45,7 @@ def create_model() -> None:
 
 
 def load_data() -> Tuple[np.ndarray, np.ndarray]:
+    """Load the IMDB dataset."""
     (training_data, training_targets), (testing_data, testing_targets) = imdb.load_data(num_words=num_words)
     data = np.concatenate((training_data, testing_data), axis=0)
     targets = np.concatenate((training_targets, testing_targets), axis=0)
@@ -112,7 +114,7 @@ if __name__ == "__main__":
     model_config_dir = os.path.join(config_dir, "model")
     for model_config_file in os.listdir(model_config_dir):
         if "zzz" in model_config_file:
-            logger.warn(f"\n====> Skipping config file '{model_config_file}' <====\n")
+            logger.warning(f"====> Skipping config file '{model_config_file}' <====\n")
             continue
         model_config_file = os.path.join(model_config_dir, model_config_file)
         logger.debug(f"Loading model config file: {model_config_file}")
